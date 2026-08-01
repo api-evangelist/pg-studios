@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of pg-studios.com /.well-known/*
+host: https://pg-studios.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published. PG Studios is a creative
+  media / animation studio with no developer API surface, so no security.txt,
+  OIDC/OAuth metadata, api-catalog, or ai-plugin was expected or found.

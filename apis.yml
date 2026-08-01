@@ -1,7 +1,27 @@
 aid: pg-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pg-studios.png
 name: PG Studios
-description: PG Studios is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PG Studios is a full-service creative media company offering animation, film
+  production, and creative media services. The studio operates specialized
+  divisions spanning animation production, filmmaking, audio and music
+  composition, and game development. Surfaced as a portfolio company of 500
+  Global, PG Studios is a creative-services business rather than an API
+  provider: its public website markets studio capabilities and a client
+  portfolio, and it publishes no developer API, SDK, documentation, or
+  developer portal. This profile has been through the API Evangelist enrichment
+  pipeline; the honest result is that there is no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/pg-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Animation
+- Film Production
+- Creative Media
+- Game Development
+- Audio
+- Media and Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pg-studios-domain-security.yml
 - type: Website
   url: https://pg-studios.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
